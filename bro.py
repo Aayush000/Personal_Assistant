@@ -63,6 +63,9 @@ def takeCommand():
     return query
 
 def news():
+    '''
+    It helps to give the short description of four latest news.
+    '''
     api_url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=bf652e8ec4e44d37b153eeec08507c74'
     main_page = requests.get(api_url).json()
     articles = main_page['articles']
