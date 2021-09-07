@@ -40,7 +40,7 @@ def greetings():
     else:
         speak("Good Evening!")  
 
-    speak("I am your personal assistant sir, but you can call me bro. I am here to help you, so what do you like me to do?")       
+    speak("Hello, I am your personal assistant, but you can call me bro. I am here to help you, so what do you like me to do?")       
 
 def takeCommand():
     '''
@@ -97,10 +97,10 @@ def taskExecution():
     Execute different tasks.
     '''
     emails = {
-        'email to danny':'dineshpandey3536@gmail.com',
-        'email to sandy':'sandeshlamsal714@gmail.com',
-        'email to andy': 'arungirii100@gmail.com',
-        'email to john': 'subratpandey974@gmail.com'
+        'email to danny':'person1@gmail.com',
+        'email to sandy':'person2@gmail.com',
+        'email to andy': 'person3@gmail.com',
+        'email to john': 'person4@gmail.com'
     }
 
     greetings()
@@ -268,7 +268,7 @@ def taskExecution():
             speak("That's awesome")
 
         elif 'thank you' in query or 'thanks' in query:
-            speak("It's my pleasure sir.")
+            speak("It's my pleasure.")
         
         elif 'you can sleep' in query or 'sleep now' in query:
             speak('Sure sir. I am going to sleep for now, but you can call me anytime.')
