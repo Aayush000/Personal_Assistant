@@ -120,13 +120,17 @@ MOreover, You have to 'enable the less secure apps' feature in your Gmail accoun
 ## If you want to have conversation with your personal assistant
 
 `hello` or `hey`
+
 It will say "Hello sir, how can I help you?"
 
 `how are you`
+
 It will say "I am fine sir, how about you?"
 
 `fine` or `also good` or `also doing well`
+
 It will say "That's awesome"
 
 `thank you` or `thanks`
+
 It will say "It's my pleasure."
